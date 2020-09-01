@@ -10,7 +10,10 @@ Interactive 3D grid, written in python opencv. Control it with mouse and keyboar
 
 Install
 ===========
-1. Copy repo (or at least .py files & requirements.txt) to your local device
+
+1. Copy repo (or at least .py files & requirements.txt) to your local device:
+::
+    git clone https://github.com/streanger/interactive_grid.git
 2. Install dependencies (numpy, opencv) with command:
 ::
     pip install -r requirements.txt
@@ -22,27 +25,28 @@ Install
 
 Usage
 ===========
-|mouse actions:
-|    left mouse button press               - draw bullets
-|    mouse center hold with mouse moves    - move grid center
-|
-|keyboard actions:
-|    g     - hide/show grid
-|    f     - freeze points & bullets
-|    c     - remove all visible pieces
-|    p     - hide/show points
-|    b     - hide/show bullets
-|    d     - gravity down
-|    u     - gravity up
-|    v     - variable/fixed bullets speed
-|    w     - hide/show walls
-|    s     - switch light square modes
-|    x     - squares speed up
-|    +     - increase squares depth
-|    -     - decrease squares depth
-|    0-9   - color mode
-|    q     - quit from grid
+mouse actions:
+::
+    left-mouse-button-press               - draw bullets
+    mouse-center-hold-with-mouse-moves    - move grid center
 
+keyboard actions:
+::
+    g     - hide/show grid
+    f     - freeze points & bullets
+    c     - remove all visible pieces
+    p     - hide/show points
+    b     - hide/show bullets
+    d     - gravity down
+    u     - gravity up
+    v     - variable/fixed bullets speed
+    w     - hide/show walls
+    s     - switch light square modes
+    x     - squares speed up
+    +     - increase squares depth
+    -     - decrease squares depth
+    0-9   - color mode
+    q     - quit from grid
 
 Example views
 ===========
