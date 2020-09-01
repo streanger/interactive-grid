@@ -27,8 +27,8 @@ Usage
 ===========
 mouse actions:
 ::
-    left-mouse-button-press               - draw bullets
-    mouse-center-hold-with-mouse-moves    - move grid center
+    left mouse button press               - draw bullets
+    mouse center hold with mouse moves    - move grid center
 
 keyboard actions:
 ::
