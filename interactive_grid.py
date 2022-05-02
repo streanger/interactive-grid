@@ -176,7 +176,7 @@ def update_points(img, points, center, show=True, freeze=False, gravity=0):
         if show:
             radius = max(round(8*point_3d_z), 0)        # 0 vs 1
             calculated_point_color = tuple(center_x_coeff * item for item in point_color)
-            cv2.circle(img, point_pos_round, radius, calculated_point_color, -1)
+            # cv2.circle(img, point_pos_round, radius, calculated_point_color, -1)  # TO REMOVE
             cv2.circle(img, point_pos_round, radius, calculated_point_color, -1, lineType=cv2.LINE_AA)  # antialiased; it cause small parts will disappear
 
 
